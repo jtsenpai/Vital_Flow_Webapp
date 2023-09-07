@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/2.png"
+      type="image/x-icon"
+    />
+    <title>Vital Flow - Admin Panel</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="side-menu">
+      <div class="brand-name">
+        <img src="../assets/images/5.png" alt="Vital Flow" />
+      </div>
+      <ul>
+        <li>
+          <a href="./index.html"
+            ><i class="fa-solid fa-dashboard"></i>&nbsp; Dashboard</a
+          >
+        </li>
+        <li>
+          <a href="./users.html"
+            ><i class="fa-solid fa-users"></i>&nbsp; Users</a
+          >
+        </li>
+        <!-- <li><i class="fa-solid fa-bell"></i>&nbsp; Notifications</li> -->
+        <li class="active">
+          <a href="./feedback.html"
+            ><i class="fa-solid fa-comment-alt"></i>&nbsp; Feedback</a
+          >
+        </li>
+        <li><i class="fa-solid fa-right-from-bracket"></i>&nbsp; Log Out</li>
+      </ul>
+    </nav>
+    <main class="container">
+      <header>
+        <nav class="nav">
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="user">
+            <a href="#" class="btn">Add New</a>
+            <i class="fa-solid fa-bell"></i>
+            <div class="img-case">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="content"></section>
+    </main>
+  </body>
+</html>
